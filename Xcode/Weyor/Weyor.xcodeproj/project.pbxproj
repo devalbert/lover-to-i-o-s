@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF7C11DC16B1690E00492DEF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF7C11DB16B1690E00492DEF /* UIKit.framework */; };
+		EF7C11DE16B1690E00492DEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF7C11DD16B1690E00492DEF /* Foundation.framework */; };
+		EF7C11E016B1690E00492DEF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF7C11DF16B1690E00492DEF /* CoreGraphics.framework */; };
+		EF7C11E616B1690E00492DEF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF7C11E416B1690E00492DEF /* InfoPlist.strings */; };
+		EF7C11E816B1690E00492DEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7C11E716B1690E00492DEF /* main.m */; };
+		EF7C11EC16B1690E00492DEF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7C11EB16B1690E00492DEF /* AppDelegate.m */; };
+		EF7C11EE16B1690E00492DEF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7C11ED16B1690E00492DEF /* Default.png */; };
+		EF7C11F016B1690E00492DEF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7C11EF16B1690E00492DEF /* Default@2x.png */; };
+		EF7C11F216B1690E00492DEF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7C11F116B1690E00492DEF /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF7C11D716B1690E00492DEF /* Weyor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weyor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF7C11DB16B1690E00492DEF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EF7C11DD16B1690E00492DEF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EF7C11DF16B1690E00492DEF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EF7C11E316B1690E00492DEF /* Weyor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Weyor-Info.plist"; sourceTree = "<group>"; };
+		EF7C11E516B1690E00492DEF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF7C11E716B1690E00492DEF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF7C11E916B1690E00492DEF /* Weyor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Weyor-Prefix.pch"; sourceTree = "<group>"; };
+		EF7C11EA16B1690E00492DEF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF7C11EB16B1690E00492DEF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF7C11ED16B1690E00492DEF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		EF7C11EF16B1690E00492DEF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		EF7C11F116B1690E00492DEF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF7C11D416B1690E00492DEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7C11DC16B1690E00492DEF /* UIKit.framework in Frameworks */,
+				EF7C11DE16B1690E00492DEF /* Foundation.framework in Frameworks */,
+				EF7C11E016B1690E00492DEF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF7C11CC16B1690E00492DEF = {
+			isa = PBXGroup;
+			children = (
+				EF7C11E116B1690E00492DEF /* Weyor */,
+				EF7C11DA16B1690E00492DEF /* Frameworks */,
+				EF7C11D816B1690E00492DEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF7C11D816B1690E00492DEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF7C11D716B1690E00492DEF /* Weyor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF7C11DA16B1690E00492DEF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF7C11DB16B1690E00492DEF /* UIKit.framework */,
+				EF7C11DD16B1690E00492DEF /* Foundation.framework */,
+				EF7C11DF16B1690E00492DEF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF7C11E116B1690E00492DEF /* Weyor */ = {
+			isa = PBXGroup;
+			children = (
+				EF7C11EA16B1690E00492DEF /* AppDelegate.h */,
+				EF7C11EB16B1690E00492DEF /* AppDelegate.m */,
+				EF7C11E216B1690E00492DEF /* Supporting Files */,
+			);
+			path = Weyor;
+			sourceTree = "<group>";
+		};
+		EF7C11E216B1690E00492DEF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF7C11E316B1690E00492DEF /* Weyor-Info.plist */,
+				EF7C11E416B1690E00492DEF /* InfoPlist.strings */,
+				EF7C11E716B1690E00492DEF /* main.m */,
+				EF7C11E916B1690E00492DEF /* Weyor-Prefix.pch */,
+				EF7C11ED16B1690E00492DEF /* Default.png */,
+				EF7C11EF16B1690E00492DEF /* Default@2x.png */,
+				EF7C11F116B1690E00492DEF /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF7C11D616B1690E00492DEF /* Weyor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF7C11F516B1690E00492DEF /* Build configuration list for PBXNativeTarget "Weyor" */;
+			buildPhases = (
+				EF7C11D316B1690E00492DEF /* Sources */,
+				EF7C11D416B1690E00492DEF /* Frameworks */,
+				EF7C11D516B1690E00492DEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Weyor;
+			productName = Weyor;
+			productReference = EF7C11D716B1690E00492DEF /* Weyor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF7C11CE16B1690E00492DEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Albert Zhao";
+			};
+			buildConfigurationList = EF7C11D116B1690E00492DEF /* Build configuration list for PBXProject "Weyor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EF7C11CC16B1690E00492DEF;
+			productRefGroup = EF7C11D816B1690E00492DEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF7C11D616B1690E00492DEF /* Weyor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF7C11D516B1690E00492DEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7C11E616B1690E00492DEF /* InfoPlist.strings in Resources */,
+				EF7C11EE16B1690E00492DEF /* Default.png in Resources */,
+				EF7C11F016B1690E00492DEF /* Default@2x.png in Resources */,
+				EF7C11F216B1690E00492DEF /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF7C11D316B1690E00492DEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7C11E816B1690E00492DEF /* main.m in Sources */,
+				EF7C11EC16B1690E00492DEF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF7C11E416B1690E00492DEF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF7C11E516B1690E00492DEF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF7C11F316B1690E00492DEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF7C11F416B1690E00492DEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF7C11F616B1690E00492DEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Weyor/Weyor-Prefix.pch";
+				INFOPLIST_FILE = "Weyor/Weyor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EF7C11F716B1690E00492DEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Weyor/Weyor-Prefix.pch";
+				INFOPLIST_FILE = "Weyor/Weyor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF7C11D116B1690E00492DEF /* Build configuration list for PBXProject "Weyor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7C11F316B1690E00492DEF /* Debug */,
+				EF7C11F416B1690E00492DEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF7C11F516B1690E00492DEF /* Build configuration list for PBXNativeTarget "Weyor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7C11F616B1690E00492DEF /* Debug */,
+				EF7C11F716B1690E00492DEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF7C11CE16B1690E00492DEF /* Project object */;
+}
