@@ -16,6 +16,14 @@
 		EF7C11EE16B1690E00492DEF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7C11ED16B1690E00492DEF /* Default.png */; };
 		EF7C11F016B1690E00492DEF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7C11EF16B1690E00492DEF /* Default@2x.png */; };
 		EF7C11F216B1690E00492DEF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7C11F116B1690E00492DEF /* Default-568h@2x.png */; };
+		EF7C11FB16B16B6200492DEF /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7C11F916B16B6200492DEF /* SplashViewController.m */; };
+		EF7C11FC16B16B6200492DEF /* SplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF7C11FA16B16B6200492DEF /* SplashViewController.xib */; };
+		EF7C120216B16E9300492DEF /* login_title-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7C11FF16B16E9300492DEF /* login_title-568h@2x.png */; };
+		EF7C120316B16E9300492DEF /* login_title.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7C120016B16E9300492DEF /* login_title.png */; };
+		EF7C120416B16E9300492DEF /* login_title@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7C120116B16E9300492DEF /* login_title@2x.png */; };
+		EF7C120816B16F7800492DEF /* login_dialog_bg-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7C120516B16F7800492DEF /* login_dialog_bg-568h@2x.png */; };
+		EF7C120916B16F7800492DEF /* login_dialog_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7C120616B16F7800492DEF /* login_dialog_bg.png */; };
+		EF7C120A16B16F7800492DEF /* login_dialog_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7C120716B16F7800492DEF /* login_dialog_bg@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +40,15 @@
 		EF7C11ED16B1690E00492DEF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		EF7C11EF16B1690E00492DEF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		EF7C11F116B1690E00492DEF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		EF7C11F816B16B6200492DEF /* SplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashViewController.h; sourceTree = "<group>"; };
+		EF7C11F916B16B6200492DEF /* SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashViewController.m; sourceTree = "<group>"; };
+		EF7C11FA16B16B6200492DEF /* SplashViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SplashViewController.xib; sourceTree = "<group>"; };
+		EF7C11FF16B16E9300492DEF /* login_title-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login_title-568h@2x.png"; sourceTree = "<group>"; };
+		EF7C120016B16E9300492DEF /* login_title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_title.png; sourceTree = "<group>"; };
+		EF7C120116B16E9300492DEF /* login_title@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login_title@2x.png"; sourceTree = "<group>"; };
+		EF7C120516B16F7800492DEF /* login_dialog_bg-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login_dialog_bg-568h@2x.png"; sourceTree = "<group>"; };
+		EF7C120616B16F7800492DEF /* login_dialog_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_dialog_bg.png; sourceTree = "<group>"; };
+		EF7C120716B16F7800492DEF /* login_dialog_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login_dialog_bg@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,9 +95,13 @@
 		EF7C11E116B1690E00492DEF /* Weyor */ = {
 			isa = PBXGroup;
 			children = (
+				EF7C11FD16B16E9300492DEF /* Resources */,
 				EF7C11EA16B1690E00492DEF /* AppDelegate.h */,
 				EF7C11EB16B1690E00492DEF /* AppDelegate.m */,
 				EF7C11E216B1690E00492DEF /* Supporting Files */,
+				EF7C11F816B16B6200492DEF /* SplashViewController.h */,
+				EF7C11F916B16B6200492DEF /* SplashViewController.m */,
+				EF7C11FA16B16B6200492DEF /* SplashViewController.xib */,
 			);
 			path = Weyor;
 			sourceTree = "<group>";
@@ -97,6 +118,27 @@
 				EF7C11F116B1690E00492DEF /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF7C11FD16B16E9300492DEF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EF7C11FE16B16E9300492DEF /* images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EF7C11FE16B16E9300492DEF /* images */ = {
+			isa = PBXGroup;
+			children = (
+				EF7C120516B16F7800492DEF /* login_dialog_bg-568h@2x.png */,
+				EF7C120616B16F7800492DEF /* login_dialog_bg.png */,
+				EF7C120716B16F7800492DEF /* login_dialog_bg@2x.png */,
+				EF7C11FF16B16E9300492DEF /* login_title-568h@2x.png */,
+				EF7C120016B16E9300492DEF /* login_title.png */,
+				EF7C120116B16E9300492DEF /* login_title@2x.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +196,13 @@
 				EF7C11EE16B1690E00492DEF /* Default.png in Resources */,
 				EF7C11F016B1690E00492DEF /* Default@2x.png in Resources */,
 				EF7C11F216B1690E00492DEF /* Default-568h@2x.png in Resources */,
+				EF7C11FC16B16B6200492DEF /* SplashViewController.xib in Resources */,
+				EF7C120216B16E9300492DEF /* login_title-568h@2x.png in Resources */,
+				EF7C120316B16E9300492DEF /* login_title.png in Resources */,
+				EF7C120416B16E9300492DEF /* login_title@2x.png in Resources */,
+				EF7C120816B16F7800492DEF /* login_dialog_bg-568h@2x.png in Resources */,
+				EF7C120916B16F7800492DEF /* login_dialog_bg.png in Resources */,
+				EF7C120A16B16F7800492DEF /* login_dialog_bg@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +215,7 @@
 			files = (
 				EF7C11E816B1690E00492DEF /* main.m in Sources */,
 				EF7C11EC16B1690E00492DEF /* AppDelegate.m in Sources */,
+				EF7C11FB16B16B6200492DEF /* SplashViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
