@@ -7,9 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RegUserConnection.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate> {
+    UIView *loadingView;
+    UIActivityIndicatorView *progressView;
+}
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) NSString *userJID;
+
+- (void)startLoading;
+- (void)stopLoading;
+
++ (AppDelegate *)sharedApp;
 
 @end

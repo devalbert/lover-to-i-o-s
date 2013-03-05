@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EF7C11D616B1690E00492DEF"
-               BuildableName = "Weyor.app"
-               BlueprintName = "Weyor"
-               ReferencedContainer = "container:Weyor.xcodeproj">
+               BlueprintIdentifier = "5005BBEF14DABF970026A96F"
+               BuildableName = "libChaosFramework.a"
+               BlueprintName = "ChaosFramework"
+               ReferencedContainer = "container:ChaosFramework.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,15 +29,6 @@
       buildConfiguration = "Debug">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EF7C11D616B1690E00492DEF"
-            BuildableName = "Weyor.app"
-            BlueprintName = "Weyor"
-            ReferencedContainer = "container:Weyor.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -48,15 +39,6 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EF7C11D616B1690E00492DEF"
-            BuildableName = "Weyor.app"
-            BlueprintName = "Weyor"
-            ReferencedContainer = "container:Weyor.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -66,21 +48,12 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EF7C11D616B1690E00492DEF"
-            BuildableName = "Weyor.app"
-            BlueprintName = "Weyor"
-            ReferencedContainer = "container:Weyor.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
    </AnalyzeAction>
    <ArchiveAction
-      buildConfiguration = "AdHoc"
+      buildConfiguration = "Release"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>

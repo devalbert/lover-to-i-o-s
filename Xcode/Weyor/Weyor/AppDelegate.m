@@ -9,6 +9,13 @@
 #import "AppDelegate.h"
 
 #import "SplashViewController.h"
+#import "XMPPManager.h"
+
+// Demo
+#import "DemoRootController.h"
+
+
+#import "User.h"
 
 @implementation AppDelegate
 
@@ -18,11 +25,83 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     
-    SplashViewController *splashController = [[SplashViewController alloc] initWithNibName:@"SplashViewController" bundle:nil];
-    self.window.rootViewController = splashController;
+    DemoRootController *mainController = [[DemoRootController alloc] initWithNibName:@"DemoRootController" bundle:nil];
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:mainController];
+    navController.navigationBarHidden = YES;
+    self.window.rootViewController = navController;
     
     [self.window makeKeyAndVisible];
+    
+    loadingView = [[UIView alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    loadingView.backgroundColor = [[UIColor blackColor] colorWithAlphaComponent:0.75f];
+    progressView = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhite];
+    progressView.center = CGPointMake(loadingView.frame.size.width / 2.0, loadingView.frame.size.height / 2.0);
+    [loadingView addSubview:progressView];
+    [self.window addSubview:loadingView];
+    loadingView.hidden = YES;
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(persenceArrived:) name:@"PERSENSE_ARRIVED" object:nil];
+    
     return YES;
+}
+
+- (void)persenceArrived:(NSNotification *)notify {
+    if (notify && notify.object) {
+        XMPPPresence *presence = notify.object;
+        NSLog(@"[Presence] %@", presence);
+        if ([presence.type isEqualToString:@"subscribe"]) {
+            self.userJID = presence.fromStr;
+            NSString *inviteInfo = [NSString stringWithFormat:@"%@邀请你成为TA的朋友", presence.from.full];
+            UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"好友邀请" message:inviteInfo delegate:self cancelButtonTitle:@"暂不处理" otherButtonTitles:@"接受请求", @"拒绝请求", nil];
+            [alertView show];
+        } else if ([presence.type isEqualToString:@"unsubscribe"]) {
+            NSString *inviteInfo = [NSString stringWithFormat:@"%@拒绝成为你的朋友", presence.from.full];
+            UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"对方决绝了你的邀请" message:inviteInfo delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+            [alertView show];
+        } else if ([presence.type isEqualToString:@"unsubscribed"]) {
+            NSString *inviteInfo = [NSString stringWithFormat:@"%@没有成为你的朋友", presence.from.full];
+            UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"对方决绝了你的邀请" message:inviteInfo delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+            [alertView show];
+        } else if ([presence.type isEqualToString:@"subscribed"]) {
+            NSString *inviteInfo = [NSString stringWithFormat:@"%@已经成为你的朋友", presence.from.full];
+            UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"对方接受了你的邀请" message:inviteInfo delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+            [alertView show];
+        } else {
+            NSString *inviteInfo = [NSString stringWithFormat:@"%@发了一条Presence", presence.from.full];
+            UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"未处理的Presence" message:inviteInfo delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+            [alertView show];
+        }
+        
+        // subscribe: manual
+    }
+}
+
+#pragma mark - UIAlertViewDelegate
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
+    if (buttonIndex == 1) {
+        NSLog(@"Accept");
+        [[XMPPManager sharedManager] acceptInvitation:self.userJID];
+    } else if (buttonIndex == 2) {
+        NSLog(@"Reject");
+        [[XMPPManager sharedManager] rejectInvitation:self.userJID];
+    } else {
+        NSLog(@"Cancel");
+    }
+}
+
+- (void)startLoading {
+    loadingView.hidden = NO;
+    [self.window bringSubviewToFront:loadingView];
+    [progressView startAnimating];
+}
+
+- (void)stopLoading {
+    [progressView stopAnimating];
+    loadingView.hidden = YES;
+}
+
++ (AppDelegate *)sharedApp {
+    return (AppDelegate *)[UIApplication sharedApplication].delegate;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

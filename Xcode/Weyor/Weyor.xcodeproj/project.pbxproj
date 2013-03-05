@@ -24,6 +24,12 @@
 		EF7C120816B16F7800492DEF /* login_dialog_bg-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7C120516B16F7800492DEF /* login_dialog_bg-568h@2x.png */; };
 		EF7C120916B16F7800492DEF /* login_dialog_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7C120616B16F7800492DEF /* login_dialog_bg.png */; };
 		EF7C120A16B16F7800492DEF /* login_dialog_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7C120716B16F7800492DEF /* login_dialog_bg@2x.png */; };
+		F41D13B016E0C86E00F2E956 /* DemoRootController.m in Sources */ = {isa = PBXBuildFile; fileRef = F41D13AE16E0C86E00F2E956 /* DemoRootController.m */; };
+		F41D13B116E0C86E00F2E956 /* DemoRootController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F41D13AF16E0C86E00F2E956 /* DemoRootController.xib */; };
+		F41D13B516E0CCAA00F2E956 /* DemoSignupController.m in Sources */ = {isa = PBXBuildFile; fileRef = F41D13B316E0CCAA00F2E956 /* DemoSignupController.m */; };
+		F41D13B616E0CCAA00F2E956 /* DemoSignupController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F41D13B416E0CCAA00F2E956 /* DemoSignupController.xib */; };
+		F41D13BB16E0D84800F2E956 /* DemoSigninController.m in Sources */ = {isa = PBXBuildFile; fileRef = F41D13B916E0D84800F2E956 /* DemoSigninController.m */; };
+		F41D13BC16E0D84800F2E956 /* DemoSigninController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F41D13BA16E0D84800F2E956 /* DemoSigninController.xib */; };
 		F479D41B16DF89D400391CC9 /* XMPPAnonymousAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = F479D2B916DF89D400391CC9 /* XMPPAnonymousAuthentication.m */; };
 		F479D41C16DF89D400391CC9 /* XMPPDeprecatedDigestAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = F479D2BC16DF89D400391CC9 /* XMPPDeprecatedDigestAuthentication.m */; };
 		F479D41D16DF89D400391CC9 /* XMPPDeprecatedPlainAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = F479D2BF16DF89D400391CC9 /* XMPPDeprecatedPlainAuthentication.m */; };
@@ -137,7 +143,29 @@
 		F479D4F716DF8ED200391CC9 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = F479D4E816DF8ED200391CC9 /* GCDAsyncSocket.m */; };
 		F479D4FD16DF8F0500391CC9 /* build-libidn.sh in Resources */ = {isa = PBXBuildFile; fileRef = F479D4F916DF8F0500391CC9 /* build-libidn.sh */; };
 		F479D4FE16DF8F0500391CC9 /* libidn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F479D4FB16DF8F0500391CC9 /* libidn.a */; };
+		F479D55016E0050F00391CC9 /* libChaosFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F479D54C16E0045C00391CC9 /* libChaosFramework.a */; };
+		F479D55216E005B400391CC9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F479D55116E005B400391CC9 /* MapKit.framework */; };
+		F479D55716E0096400391CC9 /* RegUserConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = F479D55616E0096400391CC9 /* RegUserConnection.m */; };
+		F479D55B16E00A8C00391CC9 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = F479D55A16E00A8C00391CC9 /* User.m */; };
+		F479D55F16E00E9200391CC9 /* XMPPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F479D55E16E00E9200391CC9 /* XMPPManager.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F479D54B16E0045C00391CC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F479D54716E0045C00391CC9 /* ChaosFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5005BBF014DABF970026A96F;
+			remoteInfo = ChaosFramework;
+		};
+		F479D54D16E0047300391CC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F479D54716E0045C00391CC9 /* ChaosFramework.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 5005BBEF14DABF970026A96F;
+			remoteInfo = ChaosFramework;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		EF7C11D716B1690E00492DEF /* Weyor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weyor.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -162,6 +190,15 @@
 		EF7C120516B16F7800492DEF /* login_dialog_bg-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login_dialog_bg-568h@2x.png"; sourceTree = "<group>"; };
 		EF7C120616B16F7800492DEF /* login_dialog_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_dialog_bg.png; sourceTree = "<group>"; };
 		EF7C120716B16F7800492DEF /* login_dialog_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login_dialog_bg@2x.png"; sourceTree = "<group>"; };
+		F41D13AD16E0C86E00F2E956 /* DemoRootController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoRootController.h; sourceTree = "<group>"; };
+		F41D13AE16E0C86E00F2E956 /* DemoRootController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoRootController.m; sourceTree = "<group>"; };
+		F41D13AF16E0C86E00F2E956 /* DemoRootController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoRootController.xib; sourceTree = "<group>"; };
+		F41D13B216E0CCAA00F2E956 /* DemoSignupController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoSignupController.h; sourceTree = "<group>"; };
+		F41D13B316E0CCAA00F2E956 /* DemoSignupController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoSignupController.m; sourceTree = "<group>"; };
+		F41D13B416E0CCAA00F2E956 /* DemoSignupController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoSignupController.xib; sourceTree = "<group>"; };
+		F41D13B816E0D84800F2E956 /* DemoSigninController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoSigninController.h; sourceTree = "<group>"; };
+		F41D13B916E0D84800F2E956 /* DemoSigninController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoSigninController.m; sourceTree = "<group>"; };
+		F41D13BA16E0D84800F2E956 /* DemoSigninController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoSigninController.xib; sourceTree = "<group>"; };
 		F479D2B816DF89D400391CC9 /* XMPPAnonymousAuthentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPAnonymousAuthentication.h; sourceTree = "<group>"; };
 		F479D2B916DF89D400391CC9 /* XMPPAnonymousAuthentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPAnonymousAuthentication.m; sourceTree = "<group>"; };
 		F479D2BB16DF89D400391CC9 /* XMPPDeprecatedDigestAuthentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPDeprecatedDigestAuthentication.h; sourceTree = "<group>"; };
@@ -392,6 +429,14 @@
 		F479D4FA16DF8F0500391CC9 /* idn-int.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "idn-int.h"; sourceTree = "<group>"; };
 		F479D4FB16DF8F0500391CC9 /* libidn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libidn.a; sourceTree = "<group>"; };
 		F479D4FC16DF8F0500391CC9 /* stringprep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stringprep.h; sourceTree = "<group>"; };
+		F479D54716E0045C00391CC9 /* ChaosFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ChaosFramework.xcodeproj; path = ../ChaosFramework/ChaosFramework.xcodeproj; sourceTree = "<group>"; };
+		F479D55116E005B400391CC9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F479D55516E0096400391CC9 /* RegUserConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegUserConnection.h; sourceTree = "<group>"; };
+		F479D55616E0096400391CC9 /* RegUserConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegUserConnection.m; sourceTree = "<group>"; };
+		F479D55916E00A8C00391CC9 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		F479D55A16E00A8C00391CC9 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		F479D55D16E00E9200391CC9 /* XMPPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPManager.h; sourceTree = "<group>"; };
+		F479D55E16E00E9200391CC9 /* XMPPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -399,6 +444,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F479D55216E005B400391CC9 /* MapKit.framework in Frameworks */,
+				F479D55016E0050F00391CC9 /* libChaosFramework.a in Frameworks */,
 				F479D4C116DF8A2300391CC9 /* libresolv.dylib in Frameworks */,
 				F479D4BF16DF8A1700391CC9 /* CoreData.framework in Frameworks */,
 				F479D4BD16DF8A0F00391CC9 /* SystemConfiguration.framework in Frameworks */,
@@ -419,6 +466,7 @@
 		EF7C11CC16B1690E00492DEF = {
 			isa = PBXGroup;
 			children = (
+				F479D54716E0045C00391CC9 /* ChaosFramework.xcodeproj */,
 				F479D2B516DF89D400391CC9 /* XMPPFramework */,
 				EF7C11E116B1690E00492DEF /* Weyor */,
 				EF7C11DA16B1690E00492DEF /* Frameworks */,
@@ -437,6 +485,7 @@
 		EF7C11DA16B1690E00492DEF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F479D55116E005B400391CC9 /* MapKit.framework */,
 				F479D4C016DF8A2300391CC9 /* libresolv.dylib */,
 				F479D4BE16DF8A1700391CC9 /* CoreData.framework */,
 				F479D4BC16DF8A0F00391CC9 /* SystemConfiguration.framework */,
@@ -454,6 +503,8 @@
 		EF7C11E116B1690E00492DEF /* Weyor */ = {
 			isa = PBXGroup;
 			children = (
+				F41D13AC16E0C85000F2E956 /* DEMO */,
+				F479D55316E0091000391CC9 /* Function */,
 				EF7C11FD16B16E9300492DEF /* Resources */,
 				EF7C11EA16B1690E00492DEF /* AppDelegate.h */,
 				EF7C11EB16B1690E00492DEF /* AppDelegate.m */,
@@ -498,6 +549,22 @@
 				EF7C120116B16E9300492DEF /* login_title@2x.png */,
 			);
 			path = images;
+			sourceTree = "<group>";
+		};
+		F41D13AC16E0C85000F2E956 /* DEMO */ = {
+			isa = PBXGroup;
+			children = (
+				F41D13AD16E0C86E00F2E956 /* DemoRootController.h */,
+				F41D13AE16E0C86E00F2E956 /* DemoRootController.m */,
+				F41D13AF16E0C86E00F2E956 /* DemoRootController.xib */,
+				F41D13B216E0CCAA00F2E956 /* DemoSignupController.h */,
+				F41D13B316E0CCAA00F2E956 /* DemoSignupController.m */,
+				F41D13B416E0CCAA00F2E956 /* DemoSignupController.xib */,
+				F41D13B816E0D84800F2E956 /* DemoSigninController.h */,
+				F41D13B916E0D84800F2E956 /* DemoSigninController.m */,
+				F41D13BA16E0D84800F2E956 /* DemoSigninController.xib */,
+			);
+			path = DEMO;
 			sourceTree = "<group>";
 		};
 		F479D2B516DF89D400391CC9 /* XMPPFramework */ = {
@@ -1122,6 +1189,52 @@
 			path = libidn;
 			sourceTree = "<group>";
 		};
+		F479D54816E0045C00391CC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F479D54C16E0045C00391CC9 /* libChaosFramework.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F479D55316E0091000391CC9 /* Function */ = {
+			isa = PBXGroup;
+			children = (
+				F479D55C16E00E2000391CC9 /* XMPP */,
+				F479D55816E00A7A00391CC9 /* pojo */,
+				F479D55416E0091000391CC9 /* WeyorConnection */,
+			);
+			path = Function;
+			sourceTree = "<group>";
+		};
+		F479D55416E0091000391CC9 /* WeyorConnection */ = {
+			isa = PBXGroup;
+			children = (
+				F479D55516E0096400391CC9 /* RegUserConnection.h */,
+				F479D55616E0096400391CC9 /* RegUserConnection.m */,
+			);
+			name = WeyorConnection;
+			path = HttpConnection;
+			sourceTree = "<group>";
+		};
+		F479D55816E00A7A00391CC9 /* pojo */ = {
+			isa = PBXGroup;
+			children = (
+				F479D55916E00A8C00391CC9 /* User.h */,
+				F479D55A16E00A8C00391CC9 /* User.m */,
+			);
+			name = pojo;
+			sourceTree = "<group>";
+		};
+		F479D55C16E00E2000391CC9 /* XMPP */ = {
+			isa = PBXGroup;
+			children = (
+				F479D55D16E00E9200391CC9 /* XMPPManager.h */,
+				F479D55E16E00E9200391CC9 /* XMPPManager.m */,
+			);
+			name = XMPP;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1136,6 +1249,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				F479D54E16E0047300391CC9 /* PBXTargetDependency */,
 			);
 			name = Weyor;
 			productName = Weyor;
@@ -1161,12 +1275,28 @@
 			mainGroup = EF7C11CC16B1690E00492DEF;
 			productRefGroup = EF7C11D816B1690E00492DEF /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F479D54816E0045C00391CC9 /* Products */;
+					ProjectRef = F479D54716E0045C00391CC9 /* ChaosFramework.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				EF7C11D616B1690E00492DEF /* Weyor */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F479D54C16E0045C00391CC9 /* libChaosFramework.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libChaosFramework.a;
+			remoteRef = F479D54B16E0045C00391CC9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		EF7C11D516B1690E00492DEF /* Resources */ = {
@@ -1186,6 +1316,9 @@
 				EF7C120A16B16F7800492DEF /* login_dialog_bg@2x.png in Resources */,
 				F479D4F616DF8ED200391CC9 /* README.txt in Resources */,
 				F479D4FD16DF8F0500391CC9 /* build-libidn.sh in Resources */,
+				F41D13B116E0C86E00F2E956 /* DemoRootController.xib in Resources */,
+				F41D13B616E0CCAA00F2E956 /* DemoSignupController.xib in Resources */,
+				F41D13BC16E0D84800F2E956 /* DemoSigninController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1302,10 +1435,24 @@
 				F479D4F416DF8ED200391CC9 /* ContextFilterLogFormatter.m in Sources */,
 				F479D4F516DF8ED200391CC9 /* DispatchQueueLogFormatter.m in Sources */,
 				F479D4F716DF8ED200391CC9 /* GCDAsyncSocket.m in Sources */,
+				F479D55716E0096400391CC9 /* RegUserConnection.m in Sources */,
+				F479D55B16E00A8C00391CC9 /* User.m in Sources */,
+				F479D55F16E00E9200391CC9 /* XMPPManager.m in Sources */,
+				F41D13B016E0C86E00F2E956 /* DemoRootController.m in Sources */,
+				F41D13B516E0CCAA00F2E956 /* DemoSignupController.m in Sources */,
+				F41D13BB16E0D84800F2E956 /* DemoSigninController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F479D54E16E0047300391CC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ChaosFramework;
+			targetProxy = F479D54D16E0047300391CC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		EF7C11E416B1690E00492DEF /* InfoPlist.strings */ = {
@@ -1322,13 +1469,14 @@
 		EF7C11F316B1690E00492DEF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_EMPTY_BODY = NO;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = NO;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: DO WE (276F4FB9Q6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: DO WE (276F4FB9Q6)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -1341,9 +1489,11 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = NO;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				HEADER_SEARCH_PATHS = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "7F802123-0C42-4F0B-82C0-44CE72764019";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7F802123-0C42-4F0B-82C0-44CE72764019";
 				SDKROOT = iphoneos;
 				WARNING_CFLAGS = "-Wno-arc-performSelector-leaks";
 			};
@@ -1352,7 +1502,7 @@
 		EF7C11F416B1690E00492DEF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = NO;
@@ -1364,7 +1514,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = NO;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				HEADER_SEARCH_PATHS = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
@@ -1377,16 +1527,24 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: DO WE (276F4FB9Q6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: DO WE (276F4FB9Q6)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Weyor/Weyor-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				HEADER_SEARCH_PATHS = (
+					/usr/include/libxml2,
+					"../ChaosFramework/**",
+				);
 				INFOPLIST_FILE = "Weyor/Weyor-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/XMPPFramework/Vendor/libidn\"",
+					"\"$(SRCROOT)/TestFlight\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7F802123-0C42-4F0B-82C0-44CE72764019";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7F802123-0C42-4F0B-82C0-44CE72764019";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1398,16 +1556,73 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Weyor/Weyor-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				HEADER_SEARCH_PATHS = (
+					/usr/include/libxml2,
+					"../ChaosFramework/**",
+				);
 				INFOPLIST_FILE = "Weyor/Weyor-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/XMPPFramework/Vendor/libidn\"",
+					"\"$(SRCROOT)/TestFlight\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
+		};
+		F41D13BD16E0F00700F2E956 /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_EMPTY_BODY = NO;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: JIANTAO SHEN";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: JIANTAO SHEN";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "3618CE62-1E35-4620-A4CF-33CC445DD1D4";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "3618CE62-1E35-4620-A4CF-33CC445DD1D4";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				WARNING_CFLAGS = "-Wno-arc-performSelector-leaks";
+			};
+			name = AdHoc;
+		};
+		F41D13BE16E0F00700F2E956 /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: JIANTAO SHEN";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: JIANTAO SHEN";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Weyor/Weyor-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/include/libxml2,
+					"../ChaosFramework/**",
+				);
+				INFOPLIST_FILE = "Weyor/Weyor-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/XMPPFramework/Vendor/libidn\"",
+					"\"$(SRCROOT)/TestFlight\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3618CE62-1E35-4620-A4CF-33CC445DD1D4";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "3618CE62-1E35-4620-A4CF-33CC445DD1D4";
+				WRAPPER_EXTENSION = app;
+			};
+			name = AdHoc;
 		};
 /* End XCBuildConfiguration section */
 
@@ -1417,6 +1632,7 @@
 			buildConfigurations = (
 				EF7C11F316B1690E00492DEF /* Debug */,
 				EF7C11F416B1690E00492DEF /* Release */,
+				F41D13BD16E0F00700F2E956 /* AdHoc */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1426,6 +1642,7 @@
 			buildConfigurations = (
 				EF7C11F616B1690E00492DEF /* Debug */,
 				EF7C11F716B1690E00492DEF /* Release */,
+				F41D13BE16E0F00700F2E956 /* AdHoc */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
