@@ -12,7 +12,7 @@
 #import "XMPPManager.h"
 
 // Demo
-#import "DemoRootController.h"
+//#import "DemoRootController.h"
 
 
 #import "User.h"
@@ -25,8 +25,8 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     
-    DemoRootController *mainController = [[DemoRootController alloc] initWithNibName:@"DemoRootController" bundle:nil];
-    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:mainController];
+    SplashViewController *splashController = [[SplashViewController alloc] initWithNibName:@"SplashViewController" bundle:nil];
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:splashController];
     navController.navigationBarHidden = YES;
     self.window.rootViewController = navController;
     

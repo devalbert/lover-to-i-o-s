@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "RegUserConnection.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate> {
     UIView *loadingView;

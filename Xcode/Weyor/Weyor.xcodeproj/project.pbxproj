@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF4BA3A016E8108100576234 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = EF4BA39F16E8108100576234 /* background.png */; };
+		EF4BA3A216E810D900576234 /* inputbg.png in Resources */ = {isa = PBXBuildFile; fileRef = EF4BA3A116E810D900576234 /* inputbg.png */; };
+		EF4BA3A616E814C900576234 /* checked.png in Resources */ = {isa = PBXBuildFile; fileRef = EF4BA3A316E814C900576234 /* checked.png */; };
+		EF4BA3A716E814C900576234 /* forget.png in Resources */ = {isa = PBXBuildFile; fileRef = EF4BA3A416E814C900576234 /* forget.png */; };
+		EF4BA3A816E814C900576234 /* unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = EF4BA3A516E814C900576234 /* unchecked.png */; };
+		EF716E9516E95F79007C7482 /* SignUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF716E9316E95F79007C7482 /* SignUpView.m */; };
+		EF716E9616E95F79007C7482 /* SignUpView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF716E9416E95F79007C7482 /* SignUpView.xib */; };
+		EF716E9916E961BD007C7482 /* SignUpPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = EF716E9816E961BD007C7482 /* SignUpPresenter.m */; };
+		EF716E9E16E964B5007C7482 /* SignUpProfileView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF716E9C16E964B5007C7482 /* SignUpProfileView.m */; };
+		EF716E9F16E964B5007C7482 /* SignUpProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF716E9D16E964B5007C7482 /* SignUpProfileView.xib */; };
+		EF716EA516E96655007C7482 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = EF716EA016E96655007C7482 /* back.png */; };
+		EF716EA616E96655007C7482 /* genderFemale.png in Resources */ = {isa = PBXBuildFile; fileRef = EF716EA116E96655007C7482 /* genderFemale.png */; };
+		EF716EA716E96655007C7482 /* genderMale.png in Resources */ = {isa = PBXBuildFile; fileRef = EF716EA216E96655007C7482 /* genderMale.png */; };
+		EF716EA816E96655007C7482 /* hintIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = EF716EA316E96655007C7482 /* hintIcon.png */; };
+		EF716EA916E96655007C7482 /* setupHead.png in Resources */ = {isa = PBXBuildFile; fileRef = EF716EA416E96655007C7482 /* setupHead.png */; };
+		EF716EAB16E9688F007C7482 /* completeIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = EF716EAA16E9688F007C7482 /* completeIcon.png */; };
+		EF716EAE16E969B9007C7482 /* SignUpProfilePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = EF716EAD16E969B9007C7482 /* SignUpProfilePresenter.m */; };
 		EF7C11DC16B1690E00492DEF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF7C11DB16B1690E00492DEF /* UIKit.framework */; };
 		EF7C11DE16B1690E00492DEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF7C11DD16B1690E00492DEF /* Foundation.framework */; };
 		EF7C11E016B1690E00492DEF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF7C11DF16B1690E00492DEF /* CoreGraphics.framework */; };
@@ -18,12 +35,16 @@
 		EF7C11F216B1690E00492DEF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7C11F116B1690E00492DEF /* Default-568h@2x.png */; };
 		EF7C11FB16B16B6200492DEF /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7C11F916B16B6200492DEF /* SplashViewController.m */; };
 		EF7C11FC16B16B6200492DEF /* SplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF7C11FA16B16B6200492DEF /* SplashViewController.xib */; };
-		EF7C120216B16E9300492DEF /* login_title-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7C11FF16B16E9300492DEF /* login_title-568h@2x.png */; };
-		EF7C120316B16E9300492DEF /* login_title.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7C120016B16E9300492DEF /* login_title.png */; };
-		EF7C120416B16E9300492DEF /* login_title@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7C120116B16E9300492DEF /* login_title@2x.png */; };
-		EF7C120816B16F7800492DEF /* login_dialog_bg-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7C120516B16F7800492DEF /* login_dialog_bg-568h@2x.png */; };
-		EF7C120916B16F7800492DEF /* login_dialog_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7C120616B16F7800492DEF /* login_dialog_bg.png */; };
-		EF7C120A16B16F7800492DEF /* login_dialog_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7C120716B16F7800492DEF /* login_dialog_bg@2x.png */; };
+		EF9A266816E81D35001F3062 /* WYButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9A266716E81D35001F3062 /* WYButton.m */; };
+		EF9A266B16E82273001F3062 /* greenbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = EF9A266916E82273001F3062 /* greenbutton.png */; };
+		EF9A266C16E82273001F3062 /* greenbutton2.png in Resources */ = {isa = PBXBuildFile; fileRef = EF9A266A16E82273001F3062 /* greenbutton2.png */; };
+		EF9A266E16E82345001F3062 /* nextIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = EF9A266D16E82345001F3062 /* nextIcon.png */; };
+		EFAADC6316E8B6BB00B497DF /* logoin_title.png in Resources */ = {isa = PBXBuildFile; fileRef = EFAADC6216E8B6BB00B497DF /* logoin_title.png */; };
+		EFAADC6616E8B71800B497DF /* headicon.png in Resources */ = {isa = PBXBuildFile; fileRef = EFAADC6416E8B71800B497DF /* headicon.png */; };
+		EFAADC6716E8B71800B497DF /* regicon.png in Resources */ = {isa = PBXBuildFile; fileRef = EFAADC6516E8B71800B497DF /* regicon.png */; };
+		EFAADC6A16E8B7CD00B497DF /* regbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = EFAADC6816E8B7CD00B497DF /* regbutton.png */; };
+		EFAADC6B16E8B7CD00B497DF /* regbutton2.png in Resources */ = {isa = PBXBuildFile; fileRef = EFAADC6916E8B7CD00B497DF /* regbutton2.png */; };
+		EFAADC6F16E8B86D00B497DF /* SplashPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = EFAADC6E16E8B86D00B497DF /* SplashPresenter.m */; };
 		F41D13B016E0C86E00F2E956 /* DemoRootController.m in Sources */ = {isa = PBXBuildFile; fileRef = F41D13AE16E0C86E00F2E956 /* DemoRootController.m */; };
 		F41D13B116E0C86E00F2E956 /* DemoRootController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F41D13AF16E0C86E00F2E956 /* DemoRootController.xib */; };
 		F41D13B516E0CCAA00F2E956 /* DemoSignupController.m in Sources */ = {isa = PBXBuildFile; fileRef = F41D13B316E0CCAA00F2E956 /* DemoSignupController.m */; };
@@ -168,6 +189,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EF4BA39F16E8108100576234 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		EF4BA3A116E810D900576234 /* inputbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inputbg.png; sourceTree = "<group>"; };
+		EF4BA3A316E814C900576234 /* checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checked.png; sourceTree = "<group>"; };
+		EF4BA3A416E814C900576234 /* forget.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forget.png; sourceTree = "<group>"; };
+		EF4BA3A516E814C900576234 /* unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unchecked.png; sourceTree = "<group>"; };
+		EF716E9216E95F79007C7482 /* SignUpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpView.h; sourceTree = "<group>"; };
+		EF716E9316E95F79007C7482 /* SignUpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpView.m; sourceTree = "<group>"; };
+		EF716E9416E95F79007C7482 /* SignUpView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignUpView.xib; sourceTree = "<group>"; };
+		EF716E9716E961BD007C7482 /* SignUpPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpPresenter.h; sourceTree = "<group>"; };
+		EF716E9816E961BD007C7482 /* SignUpPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpPresenter.m; sourceTree = "<group>"; };
+		EF716E9B16E964B5007C7482 /* SignUpProfileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpProfileView.h; sourceTree = "<group>"; };
+		EF716E9C16E964B5007C7482 /* SignUpProfileView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpProfileView.m; sourceTree = "<group>"; };
+		EF716E9D16E964B5007C7482 /* SignUpProfileView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignUpProfileView.xib; sourceTree = "<group>"; };
+		EF716EA016E96655007C7482 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		EF716EA116E96655007C7482 /* genderFemale.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = genderFemale.png; sourceTree = "<group>"; };
+		EF716EA216E96655007C7482 /* genderMale.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = genderMale.png; sourceTree = "<group>"; };
+		EF716EA316E96655007C7482 /* hintIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hintIcon.png; sourceTree = "<group>"; };
+		EF716EA416E96655007C7482 /* setupHead.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setupHead.png; sourceTree = "<group>"; };
+		EF716EAA16E9688F007C7482 /* completeIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = completeIcon.png; sourceTree = "<group>"; };
+		EF716EAC16E969B9007C7482 /* SignUpProfilePresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpProfilePresenter.h; sourceTree = "<group>"; };
+		EF716EAD16E969B9007C7482 /* SignUpProfilePresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpProfilePresenter.m; sourceTree = "<group>"; };
 		EF7C11D716B1690E00492DEF /* Weyor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weyor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF7C11DB16B1690E00492DEF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EF7C11DD16B1690E00492DEF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -184,12 +226,18 @@
 		EF7C11F816B16B6200492DEF /* SplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashViewController.h; sourceTree = "<group>"; };
 		EF7C11F916B16B6200492DEF /* SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashViewController.m; sourceTree = "<group>"; };
 		EF7C11FA16B16B6200492DEF /* SplashViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SplashViewController.xib; sourceTree = "<group>"; };
-		EF7C11FF16B16E9300492DEF /* login_title-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login_title-568h@2x.png"; sourceTree = "<group>"; };
-		EF7C120016B16E9300492DEF /* login_title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_title.png; sourceTree = "<group>"; };
-		EF7C120116B16E9300492DEF /* login_title@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login_title@2x.png"; sourceTree = "<group>"; };
-		EF7C120516B16F7800492DEF /* login_dialog_bg-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login_dialog_bg-568h@2x.png"; sourceTree = "<group>"; };
-		EF7C120616B16F7800492DEF /* login_dialog_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_dialog_bg.png; sourceTree = "<group>"; };
-		EF7C120716B16F7800492DEF /* login_dialog_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login_dialog_bg@2x.png"; sourceTree = "<group>"; };
+		EF9A266616E81D35001F3062 /* WYButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYButton.h; sourceTree = "<group>"; };
+		EF9A266716E81D35001F3062 /* WYButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYButton.m; sourceTree = "<group>"; };
+		EF9A266916E82273001F3062 /* greenbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenbutton.png; sourceTree = "<group>"; };
+		EF9A266A16E82273001F3062 /* greenbutton2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenbutton2.png; sourceTree = "<group>"; };
+		EF9A266D16E82345001F3062 /* nextIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nextIcon.png; sourceTree = "<group>"; };
+		EFAADC6216E8B6BB00B497DF /* logoin_title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoin_title.png; sourceTree = "<group>"; };
+		EFAADC6416E8B71800B497DF /* headicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = headicon.png; sourceTree = "<group>"; };
+		EFAADC6516E8B71800B497DF /* regicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = regicon.png; sourceTree = "<group>"; };
+		EFAADC6816E8B7CD00B497DF /* regbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = regbutton.png; sourceTree = "<group>"; };
+		EFAADC6916E8B7CD00B497DF /* regbutton2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = regbutton2.png; sourceTree = "<group>"; };
+		EFAADC6D16E8B86D00B497DF /* SplashPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashPresenter.h; sourceTree = "<group>"; };
+		EFAADC6E16E8B86D00B497DF /* SplashPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashPresenter.m; sourceTree = "<group>"; };
 		F41D13AD16E0C86E00F2E956 /* DemoRootController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoRootController.h; sourceTree = "<group>"; };
 		F41D13AE16E0C86E00F2E956 /* DemoRootController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoRootController.m; sourceTree = "<group>"; };
 		F41D13AF16E0C86E00F2E956 /* DemoRootController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoRootController.xib; sourceTree = "<group>"; };
@@ -463,6 +511,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF716E9116E95F53007C7482 /* Sign Up */ = {
+			isa = PBXGroup;
+			children = (
+				EF716E9216E95F79007C7482 /* SignUpView.h */,
+				EF716E9316E95F79007C7482 /* SignUpView.m */,
+				EF716E9416E95F79007C7482 /* SignUpView.xib */,
+				EF716E9716E961BD007C7482 /* SignUpPresenter.h */,
+				EF716E9816E961BD007C7482 /* SignUpPresenter.m */,
+				EF716E9B16E964B5007C7482 /* SignUpProfileView.h */,
+				EF716E9C16E964B5007C7482 /* SignUpProfileView.m */,
+				EF716E9D16E964B5007C7482 /* SignUpProfileView.xib */,
+				EF716EAC16E969B9007C7482 /* SignUpProfilePresenter.h */,
+				EF716EAD16E969B9007C7482 /* SignUpProfilePresenter.m */,
+			);
+			name = "Sign Up";
+			sourceTree = "<group>";
+		};
 		EF7C11CC16B1690E00492DEF = {
 			isa = PBXGroup;
 			children = (
@@ -503,15 +568,15 @@
 		EF7C11E116B1690E00492DEF /* Weyor */ = {
 			isa = PBXGroup;
 			children = (
+				EF716E9116E95F53007C7482 /* Sign Up */,
+				EFAADC6C16E8B84900B497DF /* Sign In */,
+				EF9A266416E81D15001F3062 /* Components */,
 				F41D13AC16E0C85000F2E956 /* DEMO */,
 				F479D55316E0091000391CC9 /* Function */,
 				EF7C11FD16B16E9300492DEF /* Resources */,
 				EF7C11EA16B1690E00492DEF /* AppDelegate.h */,
 				EF7C11EB16B1690E00492DEF /* AppDelegate.m */,
 				EF7C11E216B1690E00492DEF /* Supporting Files */,
-				EF7C11F816B16B6200492DEF /* SplashViewController.h */,
-				EF7C11F916B16B6200492DEF /* SplashViewController.m */,
-				EF7C11FA16B16B6200492DEF /* SplashViewController.xib */,
 			);
 			path = Weyor;
 			sourceTree = "<group>";
@@ -541,14 +606,56 @@
 		EF7C11FE16B16E9300492DEF /* images */ = {
 			isa = PBXGroup;
 			children = (
-				EF7C120516B16F7800492DEF /* login_dialog_bg-568h@2x.png */,
-				EF7C120616B16F7800492DEF /* login_dialog_bg.png */,
-				EF7C120716B16F7800492DEF /* login_dialog_bg@2x.png */,
-				EF7C11FF16B16E9300492DEF /* login_title-568h@2x.png */,
-				EF7C120016B16E9300492DEF /* login_title.png */,
-				EF7C120116B16E9300492DEF /* login_title@2x.png */,
+				EF716EAA16E9688F007C7482 /* completeIcon.png */,
+				EF716EA016E96655007C7482 /* back.png */,
+				EF716EA116E96655007C7482 /* genderFemale.png */,
+				EF716EA216E96655007C7482 /* genderMale.png */,
+				EF716EA316E96655007C7482 /* hintIcon.png */,
+				EF716EA416E96655007C7482 /* setupHead.png */,
+				EFAADC6816E8B7CD00B497DF /* regbutton.png */,
+				EFAADC6916E8B7CD00B497DF /* regbutton2.png */,
+				EFAADC6416E8B71800B497DF /* headicon.png */,
+				EFAADC6516E8B71800B497DF /* regicon.png */,
+				EFAADC6216E8B6BB00B497DF /* logoin_title.png */,
+				EF9A266D16E82345001F3062 /* nextIcon.png */,
+				EF9A266916E82273001F3062 /* greenbutton.png */,
+				EF9A266A16E82273001F3062 /* greenbutton2.png */,
+				EF4BA3A316E814C900576234 /* checked.png */,
+				EF4BA3A416E814C900576234 /* forget.png */,
+				EF4BA3A516E814C900576234 /* unchecked.png */,
+				EF4BA3A116E810D900576234 /* inputbg.png */,
+				EF4BA39F16E8108100576234 /* background.png */,
 			);
 			path = images;
+			sourceTree = "<group>";
+		};
+		EF9A266416E81D15001F3062 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				EF9A266516E81D15001F3062 /* Button */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		EF9A266516E81D15001F3062 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				EF9A266616E81D35001F3062 /* WYButton.h */,
+				EF9A266716E81D35001F3062 /* WYButton.m */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		EFAADC6C16E8B84900B497DF /* Sign In */ = {
+			isa = PBXGroup;
+			children = (
+				EF7C11F816B16B6200492DEF /* SplashViewController.h */,
+				EF7C11F916B16B6200492DEF /* SplashViewController.m */,
+				EF7C11FA16B16B6200492DEF /* SplashViewController.xib */,
+				EFAADC6D16E8B86D00B497DF /* SplashPresenter.h */,
+				EFAADC6E16E8B86D00B497DF /* SplashPresenter.m */,
+			);
+			name = "Sign In";
 			sourceTree = "<group>";
 		};
 		F41D13AC16E0C85000F2E956 /* DEMO */ = {
@@ -1308,17 +1415,32 @@
 				EF7C11F016B1690E00492DEF /* Default@2x.png in Resources */,
 				EF7C11F216B1690E00492DEF /* Default-568h@2x.png in Resources */,
 				EF7C11FC16B16B6200492DEF /* SplashViewController.xib in Resources */,
-				EF7C120216B16E9300492DEF /* login_title-568h@2x.png in Resources */,
-				EF7C120316B16E9300492DEF /* login_title.png in Resources */,
-				EF7C120416B16E9300492DEF /* login_title@2x.png in Resources */,
-				EF7C120816B16F7800492DEF /* login_dialog_bg-568h@2x.png in Resources */,
-				EF7C120916B16F7800492DEF /* login_dialog_bg.png in Resources */,
-				EF7C120A16B16F7800492DEF /* login_dialog_bg@2x.png in Resources */,
 				F479D4F616DF8ED200391CC9 /* README.txt in Resources */,
 				F479D4FD16DF8F0500391CC9 /* build-libidn.sh in Resources */,
 				F41D13B116E0C86E00F2E956 /* DemoRootController.xib in Resources */,
 				F41D13B616E0CCAA00F2E956 /* DemoSignupController.xib in Resources */,
 				F41D13BC16E0D84800F2E956 /* DemoSigninController.xib in Resources */,
+				EF4BA3A016E8108100576234 /* background.png in Resources */,
+				EF4BA3A216E810D900576234 /* inputbg.png in Resources */,
+				EF4BA3A616E814C900576234 /* checked.png in Resources */,
+				EF4BA3A716E814C900576234 /* forget.png in Resources */,
+				EF4BA3A816E814C900576234 /* unchecked.png in Resources */,
+				EF9A266B16E82273001F3062 /* greenbutton.png in Resources */,
+				EF9A266C16E82273001F3062 /* greenbutton2.png in Resources */,
+				EF9A266E16E82345001F3062 /* nextIcon.png in Resources */,
+				EFAADC6316E8B6BB00B497DF /* logoin_title.png in Resources */,
+				EFAADC6616E8B71800B497DF /* headicon.png in Resources */,
+				EFAADC6716E8B71800B497DF /* regicon.png in Resources */,
+				EFAADC6A16E8B7CD00B497DF /* regbutton.png in Resources */,
+				EFAADC6B16E8B7CD00B497DF /* regbutton2.png in Resources */,
+				EF716E9616E95F79007C7482 /* SignUpView.xib in Resources */,
+				EF716E9F16E964B5007C7482 /* SignUpProfileView.xib in Resources */,
+				EF716EA516E96655007C7482 /* back.png in Resources */,
+				EF716EA616E96655007C7482 /* genderFemale.png in Resources */,
+				EF716EA716E96655007C7482 /* genderMale.png in Resources */,
+				EF716EA816E96655007C7482 /* hintIcon.png in Resources */,
+				EF716EA916E96655007C7482 /* setupHead.png in Resources */,
+				EF716EAB16E9688F007C7482 /* completeIcon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1441,6 +1563,12 @@
 				F41D13B016E0C86E00F2E956 /* DemoRootController.m in Sources */,
 				F41D13B516E0CCAA00F2E956 /* DemoSignupController.m in Sources */,
 				F41D13BB16E0D84800F2E956 /* DemoSigninController.m in Sources */,
+				EF9A266816E81D35001F3062 /* WYButton.m in Sources */,
+				EFAADC6F16E8B86D00B497DF /* SplashPresenter.m in Sources */,
+				EF716E9516E95F79007C7482 /* SignUpView.m in Sources */,
+				EF716E9916E961BD007C7482 /* SignUpPresenter.m in Sources */,
+				EF716E9E16E964B5007C7482 /* SignUpProfileView.m in Sources */,
+				EF716EAE16E969B9007C7482 /* SignUpProfilePresenter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
